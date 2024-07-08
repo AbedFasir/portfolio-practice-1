@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Open Sans", sans-serif;
+}
+
+header {
+   background-color: rgb(255, 248, 243);
+   background-image: url(images/developer.png), url(images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+}
+
+nav {
+   width: 70%;
+   margin: 0 auto;
+   padding-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav h2 {
+   font-size: 45px;
+   font-weight: 800;
+}
+
+.org {
+   color: orange;
+}
+
+nav ul {
+   display: flex;
+   gap: 50px;
+   align-items: center;
+}
+
+nav ul li {
+   list-style: none;
+   font-size: 20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: gray;
+}
+
+button {
+   padding: 18px 30px;
+   border: none;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 20px ;
+   background: rgb(253, 110, 10);
+   cursor: pointer;
+}
+
+.banner h3 {
+   font-size: 34px;
+}
+
+.banner h1 {
+   font-size: 60px;
+}
+
+.banner-content {
+   width: 585px;
+}
+
+.banner-content > * {
+   margin-bottom: 30px;
+}
+
+.banner {
+   display: flex;
+   margin: 10px 35px 0 220px;
+   align-items: center;
+}
+
+.banner-img img {
+   width: 584px;
+}
+
+.buttons > button {
+   margin-right: 10px;
+}
+
+main {
+   margin: 150px 0;
+}
+
+.about-me {
+   border-radius: 10px;
+   width: 80%;
+   margin: 0 auto;
+   padding: 100px 120px;
+   background: rgb(255, 248, 243);
+   text-align: center;
+}
+
+.about-me > *:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+.about-me p {
+   font-size: 19px;
+   color: gray;
+}
+
+.about-me h2 {
+   font-size: 48px;
+}
+
+.about-me .info {
+   display: flex;
+   justify-content: space-around;
+}
+
+.info > div > p {
+   margin-bottom: 15px;
+}
+
+.skills {
+   width: 80%;
+   margin: 150px auto;
+}
+
+.skills h1 {
+   font-size: 45px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.skills > p {
+   font-size: 19px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.languages {
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.language > *:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.language {
+   width: 23%;
+   padding: 40px 30px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 30px 1px gainsboro;
+}
+
+.resume > h2 {
+   font-size: 45px;
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+.alma-maters {
+   width: 80%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 40px;
+}
+
+.alma-mater > *:not(:last-child){
+   margin-bottom: 30px;
+}
+
+.alma-mater p {
+   opacity: 0.8;
+   color: gray;
+}
+
+.alma-mater .harvard {
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.cv-btn {
+   text-align: center;
+   margin-top: 100px;
+}
+
+footer {
+   background: rgb(255, 248, 243);
+}
+
+footer h1 {
+   font-size: 34px;
+}
+
+.right h1 {
+   margin-bottom: 50px;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0 auto;
+   width: 80%;
+   padding: 200px 0;
+}
+
+.left {
+   width: 42%;
+}
+
+.left > *:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.right form {
+   display: flex;
+   flex-direction: column;
+}
+
+form > *:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+input, textarea {
+   padding: 35px 350px 35px 35px;
+   border: none;
+   border-radius: 5px;
+}
